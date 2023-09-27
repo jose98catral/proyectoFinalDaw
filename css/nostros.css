@@ -1,0 +1,56 @@
+/*Estilos para los titulos h2*/
+h2{
+    
+    text-align: center;
+    
+}
+/*Estilos para los titilos h3 */
+h3{
+    
+    text-align: center;
+}
+/*Estilos para los parrafos*/
+p{
+    margin: 10px;
+}
+/*Estilos para la clase textos*/
+.textos{
+   display: flex;
+   flex-direction: row;
+   margin-left: 20px;
+
+   
+}
+/*media querie para que sea responsive  */
+@media(max-width: 480px) { 
+    .textos{
+        display: flex;
+        flex-direction: column;
+    }
+
+        .texto-historia{
+            margin-right: 20px;
+            
+        }
+        .texto-mision{
+           
+            margin-right: 20px;
+           
+        }
+     
+   }
+
+.texto-historia{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.texto-mision{
+   margin-left: 10px;
+   margin-right: 10px;
+}
+/*Estilos para la clase foto*/
+.foto {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }

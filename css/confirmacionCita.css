@@ -1,0 +1,32 @@
+ 
+ /* Estolo para el body*/
+ body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    /*Estilos para los titulos h1 */
+    h1 {
+      color: #333;
+    }
+    /* Estilos para los parrafos*/
+    p {
+      color: #666;
+    }
+    /*Estilos para la clase container*/
+    .container {
+      margin-top: 100px;
+    }
+    /* Estilos para el boton*/
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .button:hover {
+      background-color: #555;
+    }

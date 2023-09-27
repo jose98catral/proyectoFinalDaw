@@ -1,0 +1,94 @@
+/*Estilos para los titulos h1 */
+h1{
+  text-align: center;
+  margin: 70px;
+  font-size: 50px;
+}
+   /*Estilos para el formulario*/
+ form{
+   
+   padding-bottom: 20px;
+   padding-top: 20px;
+    transform: translateX(30%);
+ }   
+/*Estilos para la clase form group */
+
+.form-group {
+    position: relative;
+    margin:10px ;
+  }
+  /*Estilos para las etiquetas label, input y textarea */
+  label{
+    display: block;
+    width: 40%;
+    border: 2px solid silver;
+    position: relative;
+    padding: 8px 10px;
+    transition: .25s;
+    border-radius: 10px;
+  }
+  span, input{
+    font-size: 16px;
+  }
+  
+ label input,
+  textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    display: block;
+  }
+  
+    
+ 
+  label span{
+    color: silver;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    transition: .25s;
+    
+ 
+     
+  }
+ 
+  
+/* focus*/
+label.focus{
+    border-color: gray ;
+    
+}
+  
+label span.focus{
+    color: gray;
+}
+
+/* top*/
+
+label span.top{
+    left: 2px;
+    top: -10px;
+    font-size: 12px;
+    background-color: white;
+    padding: 0 5px;
+}
+/*Estilos para la clase formulario*/
+ .formulario{
+     
+    border-radius: 10px;
+     border: 2px solid gray;
+   margin: 100px 230px 100px 230px;
+ }
+ /*Estilos para el boton */
+  button{
+    display: block;
+    color: white;
+    background-color: gray;
+    width: 41%;
+    padding: 10px;
+    margin: 10px;
+  }
+  button:active{
+    background-color: black;
+  }

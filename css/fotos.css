@@ -1,0 +1,87 @@
+
+/*Estilos para el body */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+/*Estilos para la clase header*/
+.header {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+
+/*Estilos para la clase navegacion*/
+.navegacion {
+  margin-top: 10px;
+}
+
+.navegacion a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+/*Estilos para la clase formulario */
+.formulario {
+  margin: 20px auto;
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.formulario input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.formulario input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/*Estilos para la tabla */
+.tabla {
+  margin: 20px auto;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.tabla table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla th,
+.tabla td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.tabla th {
+  background-color: #333;
+  color: #fff;
+}
+
+.tabla img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.tabla .acciones form {
+  display: inline-block;
+}
+
+.tabla .acciones input[type="submit"] {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

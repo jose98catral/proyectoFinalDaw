@@ -1,0 +1,143 @@
+/*Estilos para los titulos h2,h3 y los parrafos*/
+h2,p,h3{
+    text-align: center;
+    margin: 10px;
+}
+/*Estilos para la clase fotos */
+.foto{
+    width: 100%;
+    margin: 10px;
+}
+.contenido-fotos{
+    display: flex;
+    flex-direction: row;
+}
+/*media querie para que sea responsive */
+@media(max-width: 480px){
+    .contenido-fotos {
+        display: block;
+       
+        align-items: center;
+    }
+    
+}
+/*Estilos para la clase for,-grid */
+.form-grid{
+ display: grid;
+grid-template-columns: 50% 50%;
+text-align: center;
+
+/*Estilos para el formulario */
+}
+.form-group {
+    position: relative;
+    margin:10px ;
+  }
+  label{
+    display: block;
+    width: 400px;
+    border: 2px solid silver;
+    position: relative;
+    padding: 8px 10px;
+    transition: .25s;
+  }
+  span, input{
+    font-size: 16px;
+  }
+  
+ label input,
+  textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    display: block;
+  }
+  textarea{
+    width: 100%;
+    
+  }
+  .form-conocidio{
+    display: block;
+    
+
+  }
+  .form-conocidio label {
+    border: none;
+    text-align: left;
+   
+  }
+ 
+  label span{
+    color: silver;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    transition: .25s;
+    
+  }
+  @media(max-width: 480px) { 
+    .form-grid{
+        display: block;
+        margin: 10px;
+    }
+     
+   }
+/*Estilos para el select */
+   select {
+    appearance: none;
+            border: solid 2px gray;
+            outline: none;
+            background: transparent;
+            width: 15%;
+            padding: 5px 0;
+            font-size: 16px;
+            position: relative;
+            z-index: 1;
+            margin: 15px;
+           
+            
+}
+select option {
+  border-radius: 5px;
+  
+  padding: 5px;
+  text-align: center;
+}
+
+.enviar {
+    width: 100%;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.enviar:hover {
+    background-color: black;
+}
+  
+ 
+  
+/* focus*/
+label.focus{
+    border-color: gray ;
+    
+}
+  
+label span.focus{
+    color: gray;
+}
+
+/* top*/
+
+label span.top{
+    left: 2px;
+    top: -10px;
+    font-size: 12px;
+    background-color: white;
+    padding: 0 5px;
+}

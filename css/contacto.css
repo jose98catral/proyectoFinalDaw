@@ -1,0 +1,44 @@
+/*Estilos para los titulo h1 */
+h1{
+  text-align: center;
+  margin: 60px;
+  font-size: 50px;
+}
+/*Estilos para la clase formulario */
+.formulario {
+  background-color: #fff;
+  padding: 20px;
+  margin: 60px 60px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+
+  color: #333;
+}
+
+.formulario label span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;;
+}
+

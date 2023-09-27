@@ -1,0 +1,97 @@
+/*Estilos para los titulos h2 */
+
+h2{
+  text-align: center;
+  transform: translateY(20px);
+}
+
+/*Estilos para el formulario */
+   
+ form{
+   
+    padding-bottom: 20px;
+    padding-top: 20px;
+     transform: translateX(30%);
+  }   
+ 
+
+ .form-group {
+     position: relative;
+     margin:10px ;
+   }
+   label{
+     display: block;
+     width: 40%;
+     border: 2px solid silver;
+     position: relative;
+     padding: 8px 10px;
+     transition: .25s;
+     border-radius: 10px;
+   }
+   span, input{
+     font-size: 16px;
+   }
+   
+  label input,
+   textarea {
+     background: transparent;
+     border: none;
+     outline: none;
+     width: 100%;
+     display: block;
+   }
+   
+     
+  
+   label span{
+     color: silver;
+     position: absolute;
+     top: 8px;
+     left: 10px;
+     transition: .25s;
+     
+  
+      
+   }
+   .form-group label{
+    text-align: center;
+   }
+  
+   
+ /* focus*/
+ label.focus{
+     border-color: gray ;
+     
+ }
+   
+ label span.focus{
+     color: gray;
+ }
+ 
+ /* top*/
+ 
+ label span.top{
+     left: 2px;
+     top: -10px;
+     font-size: 12px;
+     background-color: white;
+     padding: 0 5px;
+ }
+  .formulario{
+      
+     border-radius: 10px;
+      border: 2px solid gray;
+    margin: 80px 200px 80px 200px;
+  }
+  /*Estilos para el botn */
+   button{
+     display: block;
+     color: white;
+     background-color: gray;
+     width: 41%;
+     padding: 10px;
+     margin: 10px;
+   }
+   button:active{
+     background-color: black;
+   }
